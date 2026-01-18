@@ -33,42 +33,24 @@ git clone [https://github.com/your-username/blog_system.git](https://github.com/
 cd blog_system
 
 3. Install Dependencies
-
-Install PHP dependencies:
-Bash
-
 composer install
-
 Install frontend dependencies:
-Bash
-
 npm install
 
 4. Environment Configuration
-
 Copy the example environment file:
-Bash
-
 cp .env.example .env
 
 5. Application Setup
-
 Run the automated setup script to generate keys, migrate the database, and build assets:
-Bash
-
 composer run setup
 
 6. Local Development
-
 Start the development server (runs Artisan and Vite concurrently):
-Bash
-
 composer run dev
 
 The application will be accessible at http://localhost:8000.
-Testing
 
+7.Testing
 Run the test suite using the following command:
-Bash
-
 composer run test
